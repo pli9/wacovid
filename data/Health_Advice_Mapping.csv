@@ -1,0 +1,5 @@
+Health_Advice_Full,Health_Advice_Short,Marker_Color,Health_Advice_Severity
+"Get tested immediately and isolate for 14 days from the date of last exposure, unless directly advised otherwise by the Department of Health. If you have not been contacted by the Department of Health phone 13 COVID (13 26843).",Test and Iso for 14d,black,4
+"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,3
+"Get tested immediately. Unless symptomatic, you are not required to isolate while awaiting negative result.",Test and Iso if symptomatic,orange,2
+"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,1

@@ -1,0 +1,281 @@
+---
+title: "WA Exposure Sites"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+<!-- Adjusting Font Type for Styles to Arial -->
+<style type="text/css">
+
+body{ /* Normal  */
+  font-family: Arial, Helvetica, sans-serif;
+  }
+td {  /* Table  */
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1.title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 { /* Header 1 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 { /* Header 2 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 { /* Header 3 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  display: inline
+}
+.dataTables_scrollBody {
+    max-height: 100% !important;
+}
+</style>
+
+```{r setup, include=FALSE}
+library(data.table)
+library(magrittr)
+library(leaflet)
+library(flexdashboard)
+library(crosstalk)
+library(DT)
+# library(summarywidget)
+
+folder <- 'C:/Users/pli/Documents/COVID/'
+
+Health_Advice_Mapping <- fread(paste0(folder, 'data/Health_Advice_Mapping.csv'), encoding = 'UTF-8')
+sites <- fread(paste0(folder, 'data/Sites.csv'), encoding = 'UTF-8')
+sites_by_day <- fread(paste0(folder, 'data/Sites_by_Day.csv'), encoding = 'UTF-8')
+
+sites_by_day[is.na(Date_Time_Day), Date_Time_Day := as.Date('2022-01-04')]
+
+sites[, Health_Advice_Short := as.factor(Health_Advice_Short)]
+sites[, Suburb := as.factor(Suburb)]
+sites_by_day[, Health_Advice_Short := as.factor(Health_Advice_Short)]
+sites_by_day[, Suburb := as.factor(Suburb)]
+```
+
+By Day
+======================================================================
+
+Row {data-height=200}
+-----------------------------------------------------------------------
+
+### Chart B {.no-title}
+
+```{r}
+labels <- sites_by_day[, paste0(Date_Time, '\n', Location)]
+sites_by_day[, label := labels]
+
+shared_sites_by_day <- SharedData$new(sites_by_day[!is.na(lon), .(Date_Time, Suburb, Location, Date_updated, Health_Advice_Short, Date_Time_Day, lon, lat, Marker_Color, label)])
+
+bscols(
+  list(
+    filter_slider("exposure_date", "Exposure Date", shared_sites_by_day, ~Date_Time_Day, step = 1, width = "100%"),
+    filter_checkbox("health_advice", "Health Advice", shared_sites_by_day, ~Health_Advice_Short, inline = TRUE)
+  )
+)
+```
+
+
+Row {data-height=800 .tabset}
+-----------------------------------------------------------------------
+
+### Map 
+
+```{r}
+
+leaflet(height = 1000) %>%
+  addTiles() %>%
+  addAwesomeMarkers(
+    data = shared_sites_by_day,
+    lng = ~lon,
+    lat = ~lat,
+    icon = awesomeIcons(
+      icon = 'ios-close',
+      library = 'ion',
+      markerColor = ~Marker_Color
+    ),
+    label = ~label
+  )
+```
+
+
+### Table
+
+```{r}
+datatable(
+    data = shared_sites_by_day,
+    # extensions = 'Buttons',
+    options = list(
+      autoWidth = TRUE,
+      # columnDefs = list(list(width = '100px', targets = '_all')),
+      dom = 't',
+      # buttons = c('copy', 'csv'),
+      ordering = TRUE,
+      paging = FALSE,
+      columnDefs = list(list(visible=FALSE, targets=c(5:9))),
+      initComplete = JS(
+        "function(settings, json) {",
+        "$(this.api().table().header()).css({'font-family': 'arial', 'font-size': '12px', 'text-align': 'center','vertical-align': 'middle','padding-top': '0px','padding-bottom': '0px','padding-left': '0px','padding-right': '0px'});",
+        "}"
+      )
+    ),
+    rownames = FALSE, 
+    colnames = c('Date and Time of Exposure' = 'Date_Time',
+                 'Last Updated' = 'Date_updated',
+                 'Health Advice' = 'Health_Advice_Short'),
+    selection = 'none',
+    filter = 'top'
+  ) %>%
+    formatStyle(
+      c('Date and Time of Exposure', 'Suburb', 'Location', 'Last Updated', 'Health Advice'),
+      fontFamily = 'arial',
+      fontSize = '12px',
+      color = "#000000",
+      fontWeight = 'normal',
+      verticalAlign = 'middle',
+      paddingTop = '0px',
+      paddingBottom = '0px',
+      paddingLeft = '10px',
+      paddingRight = '10px'
+    )
+```
+
+
+
+All Exposure Sites
+======================================================================
+
+Row {data-width=1000 .tabset}
+-----------------------------------------------------------------------
+
+### Map
+
+```{r}
+addAwesomeMarkers_for_Marker_Color <- function(map, color) {
+  data.filt <- sites[!is.na(lon) & Marker_Color == color, .(Date_Time, Location, Suburb, Date_updated, Health_advice, Health_Advice_Short, Marker_Color, lon, lat)]
+  labels <- data.filt[, paste0(
+    "<strong>Exposure Date & Time</strong><br/>", Date_Time,
+    "<br/><strong>Location</strong><br/>", Location,
+    "<br/><strong>Suburb</strong><br/>", Suburb,
+    "<br/><strong>Date Updated</strong><br/>", Date_updated,
+    "<br/><strong>Health Advice</strong><br/>", Health_advice)]
+  labels <- gsub('\t', '', labels)
+  labels <- gsub('\n\n', '<br/>', labels)
+  labels <- gsub('\n', '<br/>', labels)
+  labels <- gsub('<br/>.<br/>', '<br/>', labels)
+  labels <- labels %>% lapply(htmltools::HTML)
+  
+  addAwesomeMarkers(
+    map,
+    data = data.filt,
+    group = ~Health_Advice_Short,
+    lng = ~lon,
+    lat = ~lat,
+    icon = ~awesomeIcons(
+      icon = 'ios-close',
+      library = 'ion',
+      markerColor = Marker_Color
+    ),
+    # clusterOptions = markerClusterOptions(maxClusterRadius = 0.01, spiderfyDistanceMultiplier = 1.5),
+    label = labels
+  )
+}
+
+leaflet(height = 1000) %>%
+  addTiles() %>%
+  addAwesomeMarkers_for_Marker_Color('black') %>%
+  addAwesomeMarkers_for_Marker_Color('red') %>%
+  addAwesomeMarkers_for_Marker_Color('yellow') %>%
+  addAwesomeMarkers_for_Marker_Color('blue') %>%
+  addLayersControl(
+    overlayGroups = Health_Advice_Mapping[, Health_Advice_Short],
+    options = layersControlOptions(collapsed = FALSE)
+  )
+```
+
+### Table
+
+```{r}
+datatable(
+    data = sites[,.(Date_Time, Suburb, Location, Date_updated, Health_Advice_Short)],
+    # extensions = 'Buttons',
+    options = list(
+      autoWidth = TRUE,
+      # columnDefs = list(list(width = '100px', targets = '_all')),
+      dom = 't',
+      # buttons = c('copy', 'csv'),
+      ordering = TRUE,
+      paging = FALSE,
+      initComplete = JS(
+        "function(settings, json) {",
+        "$(this.api().table().header()).css({'font-family': 'arial', 'font-size': '12px', 'text-align': 'center','vertical-align': 'middle','padding-top': '0px','padding-bottom': '0px','padding-left': '0px','padding-right': '0px'});",
+        "}"
+      )
+    ),
+    rownames = FALSE,
+    colnames = c('Date and Time of Exposure' = 'Date_Time',
+                 'Last Updated' = 'Date_updated',
+                 'Health Advice' = 'Health_Advice_Short'),
+    selection = 'none',
+    filter = 'top'
+  ) %>%
+    formatStyle(
+      c('Date and Time of Exposure', 'Suburb', 'Location', 'Last Updated', 'Health Advice'),
+      fontFamily = 'arial',
+      fontSize = '12px',
+      color = "#000000",
+      fontWeight = 'normal',
+      verticalAlign = 'middle',
+      paddingTop = '0px',
+      paddingBottom = '0px',
+      paddingLeft = '10px',
+      paddingRight = '10px'
+    )
+```
+
+
+All (Heatmap)
+======================================================================
+
+Row {data-width=1000}
+-----------------------------------------------------------------------
+
+### Heatmap of Exposure Sites
+
+```{r}
+leaflet(height = 1000) %>%
+  addTiles() %>%
+  # addAwesomeMarkers_for_Marker_Color('black') %>%
+  # addAwesomeMarkers_for_Marker_Color('red') %>%
+  # addAwesomeMarkers_for_Marker_Color('yellow') %>%
+  # addAwesomeMarkers_for_Marker_Color('blue') %>%
+  leaflet.extras::addHeatmap(
+    data = sites[!is.na(lon)],
+    lng = ~lon,
+    lat = ~lat,
+    intensity = ~Health_Advice_Severity/4,
+    radius = 15,
+    blur = 15,
+    group = 'Heat Map'
+  ) # %>%
+  # leaflet.extras::addHeatmap(
+  #   data = sites[1],
+  #   lng = ~lon,
+  #   lat = ~lat,
+  #   intensity = NA,
+  #   radius = 0,
+  #   blur = 0,
+  #   group = 'No Heat Map'
+  # ) %>%
+  # addLayersControl(
+  #   baseGroups = c('Heat Map', 'No Heat Map'),
+  #   overlayGroups = c(Health_Advice_Mapping[, Health_Advice_Short]),
+  #   options = layersControlOptions(collapsed = FALSE)
+  # )
+```
+
+
