@@ -7,15 +7,16 @@ url <- 'https://www.wa.gov.au/government/covid-19-coronavirus/covid-19-coronavir
 
 webpage <- read_html(url)
 
+# folder <- 'C:/Users/zdtf0342/OneDrive - Treasury WA/COVID/'
+# folder <- 'C:/Users/pli/Documents/COVID/'
+folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
+
 # Date updated
-previous_update <- readLines('data/Last_Updated.txt')
+previous_update <- readLines(paste0(folder, 'data/Last_Updated.txt'))
 current_update <- html_nodes(webpage, 'p')[1]
 current_update <- as.character(current_update)
 current_update <- gsub('<p>','',current_update)
 current_update <- gsub('</p>','',current_update)
-
-# folder <- 'C:/Users/zdtf0342/OneDrive - Treasury WA/COVID/'
-folder <- 'C:/Users/pli/Documents/COVID/'
 
 if(current_update != previous_update) {
   library(data.table)
@@ -24,6 +25,7 @@ if(current_update != previous_update) {
   library(leaflet)
   library(stringr)
   library(leaflet.extras)
+  library(git2r)
   
   # Sites
   sites <- html_table(webpage)[[1]] %>% as.data.table()
@@ -129,4 +131,6 @@ if(current_update != previous_update) {
   )
   
   writeLines(current_update, paste0(folder, 'data/Last_Updated.txt'))
+  
+  commit(repo = ".", message = paste0('Updated on ', substr(current_update, 15, nchar(current_update))))
 }
