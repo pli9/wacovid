@@ -9,7 +9,8 @@ webpage <- read_html(url)
 
 # folder <- 'C:/Users/zdtf0342/OneDrive - Treasury WA/COVID/'
 # folder <- 'C:/Users/pli/Documents/COVID/'
-folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
+# folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
+folder <- Sys.getenv('WACOVID-FOLDER')
 
 # Date updated
 previous_update <- readLines(paste0(folder, 'data/Last_Updated.txt'))

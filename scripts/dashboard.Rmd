@@ -44,7 +44,8 @@ library(DT)
 # library(summarywidget)
 
 # folder <- 'C:/Users/pli/Documents/COVID/'
-folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
+# folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
+folder <- Sys.getenv('WACOVID-FOLDER')
 
 Health_Advice_Mapping <- fread(paste0(folder, 'data/Health_Advice_Mapping.csv'), encoding = 'UTF-8')
 sites <- fread(paste0(folder, 'data/Sites.csv'), encoding = 'UTF-8')
