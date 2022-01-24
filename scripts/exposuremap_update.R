@@ -132,5 +132,8 @@ if(current_update != previous_update) {
   
   writeLines(current_update, paste0(folder, 'data/Last_Updated.txt'))
   
-  commit(repo = ".", message = paste0('Updated on ', substr(current_update, 15, nchar(current_update))))
+  repo <- repository(folder)
+  config(repo, user.name="Peter Li", user.email="pli@westswan.com")
+  commit(repo, message = paste0('Updated on ', substr(current_update, 15, nchar(current_update))), all = TRUE)
+  push(repo, credentials = cred_token(token = "GITHUB_PAT"))
 }
