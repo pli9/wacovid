@@ -1,5 +1,4 @@
 ---
-title: "WA Exposure Sites"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -41,6 +40,7 @@ library(leaflet)
 library(flexdashboard)
 library(crosstalk)
 library(DT)
+library(shiny)
 # library(summarywidget)
 
 # folder <- 'C:/Users/pli/Documents/COVID/'
@@ -57,7 +57,14 @@ sites[, Health_Advice_Short := as.factor(Health_Advice_Short)]
 sites[, Suburb := as.factor(Suburb)]
 sites_by_day[, Health_Advice_Short := as.factor(Health_Advice_Short)]
 sites_by_day[, Suburb := as.factor(Suburb)]
+
+update_date_full <- readLines(paste0(folder, 'data/Last_Updated.txt'))
+update_date <- substr(update_date_full,15,nchar(update_date_full))
 ```
+
+---
+title: "`r paste0(' WA Exposure Sites - ', update_date)`"
+---
 
 By Day
 ======================================================================
@@ -73,9 +80,11 @@ sites_by_day[, label := labels]
 
 shared_sites_by_day <- SharedData$new(sites_by_day[!is.na(lon), .(Date_Time, Suburb, Location, Date_updated, Health_Advice_Short, Date_Time_Day, lon, lat, Marker_Color, label)])
 
-bscols(
-  list(
-    filter_slider("exposure_date", "Exposure Date", shared_sites_by_day, ~Date_Time_Day, step = 1, width = "100%"),
+tags$div(
+  tags$div(
+    filter_slider("exposure_date", "Exposure Date", shared_sites_by_day, ~Date_Time_Day, step = 1, width = "100%")
+  ),
+  tags$div(
     filter_checkbox("health_advice", "Health Advice", shared_sites_by_day, ~Health_Advice_Short, inline = TRUE)
   )
 )

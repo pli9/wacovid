@@ -6,7 +6,7 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			8:45am to 10:30am","Riverview Church (non-Mezzanine areas of the church),
 			1 Thorogood Street",Burswood,2022-01-24,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8935335,-31.9665925
 2022-01-21,"Friday 21/01/2022
-			8:15pm to 8:45pm","Cockburn ARC pool (50 metre outdoor pool and warm water pool) and changeroom area,
+			8:15am to 8:45am","Cockburn ARC pool (50 metre outdoor pool and warm water pool) and changeroom area,
 			Cockburn Central, 31 Veterans Parade",Cockburn,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.850766,-32.1255031
 2022-01-20,"Thursday 20/01/2022
 			12:00pm to 2:00pm","Cockburn ARC gym and changeroom area,
@@ -559,28 +559,3 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 2022-01-08,Saturday 08/01/2022 at 2:00pm to 2:45pm,"Norseman BP,
 			1 Coolgardie-Esperance Hwy",Norseman,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,121.7792068,-32.1855494
 2022-01-08,Saturday 08/01/2022 at 9:45am to 10:30am,Caiguna Roadhouse,Caiguna,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,125.4871635,-32.2712075
-2022-01-04,Tuesday 04/01/2022 at 10:00am to 11:00am,"Medicare Fremantle 
-			11 Queen Victoria Street",Fremantle,2022-01-07,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7504298,-32.0493044
-2022-01-03,Monday 03/01/2022 at 12:00pm to 12:30pm,"Winthrop Village Shopping Centre 
-			Corner Jackson Avenue & Somerville Blvd",Winthrop,2022-01-07,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,,
-2022-01-04,Tuesday 04/01/2022 at 10:40am to 11:20am,"Kwinana Commonwealth Bank
-			Shop 31, Kwinana Marketplace,
-			4 Chisham Ave, Kwinana Town Centre",Kwinana,2022-01-06,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8149052,-32.2450053
-2022-01-04,Tuesday 04/01/22 at 10:20am to 10:50am,"Kwinana Repco 
-			3/46 Meares Ave",Kwinana,2022-01-06,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8160448,-32.246931
-2022-01-03,Monday 03/01/22 at 12:45pm to 1:15pm,"Coles Express
-			1 Johnson Road",Casuarina,2022-01-06,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8484761,-32.2322615
-2022-01-04,Tuesday 04/01/22 at 4:00pm to 4:30pm,"Fremantle Pharmacy
-			82B High Street",Fremantle,2022-01-05,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7455235,-32.0545464
-2022-01-03,Monday 03/01/2022 at 6:30pm to 10:00pm,"Healthy Thai Vegan and Vegetarian Cuisine
-			867a Albany Highway",East Victoria Park,2022-01-05,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9032518,-31.9854836
-2022-01-01,"Saturday 01/01/22 at 3:00pm to 4:00pm
-			Sunday 02/01/22 at 2:00pm to 2:30pm
-			Monday 03/01/2022 at 1:30pm to 2:30pm",Blue Cat Bus – Fremantle to South Beach,Fremantle,2022-01-05,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7529297,-32.0773193
-2022-01-02,"Saturday 01/01/22 at 3:00pm to 4:00pm
-			Sunday 02/01/22 at 2:00pm to 2:30pm
-			Monday 03/01/2022 at 1:30pm to 2:30pm",Blue Cat Bus – Fremantle to South Beach,Fremantle,2022-01-05,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7529297,-32.0773193
-2022-01-03,"Saturday 01/01/22 at 3:00pm to 4:00pm
-			Sunday 02/01/22 at 2:00pm to 2:30pm
-			Monday 03/01/2022 at 1:30pm to 2:30pm",Blue Cat Bus – Fremantle to South Beach,Fremantle,2022-01-05,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7529297,-32.0773193
-2022-01-03,Monday 03/01/2022 5:30pm to 6:30pm,Blue Cat Bus – South Beach to Fremantle,Fremantle,2022-01-05,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7529297,-32.0773193
