@@ -1,4 +1,19 @@
 Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice_Short,Health_Advice_Severity,Marker_Color,lon,lat
+"Sunday 23/01/2022
+			8:45am to 10:30am","Riverview Church (Mezzanine Floor),
+			1 Thorogood Street",Burswood,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8935335,-31.9665925
+"Sunday 23/01/2022
+			8:45am to 10:30am","Riverview Church (non-Mezzanine areas of the church),
+			1 Thorogood Street",Burswood,2022-01-24,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.8935335,-31.9665925
+"Friday 21/01/2022
+			8:15pm to 8:45pm","Cockburn ARC pool (50 metre outdoor pool and warm water pool) and changeroom area,
+			Cockburn Central, 31 Veterans Parade",Cockburn,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.850766,-32.1255031
+"Thursday 20/01/2022
+			12:00pm to 2:00pm","Cockburn ARC gym and changeroom area,
+			Cockburn Central, 31 Veterans Parade",Cockburn,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.850766,-32.1255031
+"Wednesday 19/01/2022
+			12:00pm to 1:00pm","Cockburn ARC gym and changeroom area,
+			Cockburn Central, 31 Veterans Parade",Cockburn,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.850766,-32.1255031
 "Friday 21/01/2022
 			6:00pm to 11:30pm","Sporting Globe Bar and Grill,
 			330 Pinjarra Road",Mandurah,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.7416065,-32.5360668
