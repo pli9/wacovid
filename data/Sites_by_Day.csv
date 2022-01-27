@@ -1,10 +1,21 @@
 Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice_Short,Marker_Color,lon,lat
 2022-01-23,"Sunday 23/01/2022
+			4:00pm to 7:00pm","Albion Hotel, 535 Stirling Highway",Cottesloe,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7629448,-31.9975116
+2022-01-22,"Saturday 22/01/2022
+			11:45pm to
+			Sunday 23/01/2022 1:00am","Top Floor - Mandurah Night Club, 7 Smart Street",Mandurah,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7204231,-32.5334538
+2022-01-23,"Saturday 22/01/2022
+			11:45pm to
+			Sunday 23/01/2022 1:00am","Top Floor - Mandurah Night Club, 7 Smart Street",Mandurah,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7204231,-32.5334538
+2022-01-22,"Saturday 22/01/2022
+			12:00pm to 12:30pm","Beach house cafe, Warnbro Centre, 206 Warnbro South Avenue",Warnbro,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7628354,-32.346437
+2022-01-21,Friday 21/01/2022 12:00pm to 1:00pm,"Nando's Belmont Forum, 227 Belmont Avenue",Belmont,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9342843,-31.9662428
+2022-01-21,Friday 21/01/2022 8:00pm to 8:30pm,"High Wycombe Kebab House, 530 Kalamunda Road",High Wycombe,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,116.0049917,-31.9355763
+2022-01-21,Friday 21/01/2022 7:30am to 8:30am,"Miami Bakehouse, Lot 602 Forrest Highway",West Pinjarra,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7778587,-32.6858014
+2022-01-20,Thursday 20/01/2022 5:00pm to 6:30pm,"Treendale Farm Hotel, 8 The Promenade, Australind",Australind,2022-01-26,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7399526,-33.283435
+2022-01-23,"Sunday 23/01/2022
 			8:45am to 10:30am","Riverview Church (Mezzanine Floor),
 			1 Thorogood Street",Burswood,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8935335,-31.9665925
-2022-01-23,"Sunday 23/01/2022
-			8:45am to 10:30am","Riverview Church (non-Mezzanine areas of the church),
-			1 Thorogood Street",Burswood,2022-01-24,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8935335,-31.9665925
 2022-01-21,"Friday 21/01/2022
 			8:15am to 8:45am","Cockburn ARC pool (50 metre outdoor pool and warm water pool) and changeroom area,
 			Cockburn Central, 31 Veterans Parade",Cockburn,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.850766,-32.1255031
@@ -20,12 +31,6 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 2022-01-20,"Thursday 20/01/2022
 			5:45pm to 8:00pm","Jo's Curry House,
 			18 Wittenoom Street",Bunbury,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.6352746,-33.3213036
-2022-01-21,"Friday 21/01/2022
-			7:45am to 8:00am","Mercy Day Care Centre,
-			1-7 Wilfred Court",Thornlie,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9503711,-32.0447188
-2022-01-18,"Tuesday 18/01/2022
-			7:30am to 7:45am","Mercy Day Care Centre,
-			1-7 Wilfred Court",Thornlie,2022-01-24,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9503711,-32.0447188
 2022-01-20,"Thursday 20/01/2022
 			6:30pm to 7:00pm","Chicken Treat,
 			Shop 3 530 Kalamunda Rd",High Wycombe,2022-01-23,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,116.0047867,-31.9354738
@@ -42,16 +47,6 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			1382 Albany Highway",Cannington,2022-01-23,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9387971,-32.0179492
 2022-01-18,Tuesday 18/01/2022 at 11:55am to 1:00pm,"Miss Maud (Carousel) - the one close to Woolworths,
 			1382 Albany Highway",Cannington,2022-01-23,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.938873,-32.020502
-2022-01-17,Monday 17/01/2022 at 4:00am to 4:30am,"7-Eleven,
-			1256 Armadale Rd (Haynes Shopping Centre)",Armadale,2022-01-22,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9843957,-32.1475693
-2022-01-17,Monday 17/01/2022 at 2:45pm to 4:00pm,"Haynes Shopping Centre,
-			Cnr Armadale Rd and Eighth Rd",Armadale,2022-01-22,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9865666,-32.1476773
-2022-01-17,Monday 17/01/2022 at 3:00pm to 3:15pm,"Haynes Good Newspower (Haynes Shopping Centre)
-			Armadale Rd",Armadale,2022-01-22,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9863458,-32.1478588
-2022-01-17,Monday 17/01/2022 at 3:15pm to 3:30pm,"Coles Haynes (Haynes Shopping Centre),
-			Armadale Rd",Armadale,2022-01-22,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9865417,-32.1478233
-2022-01-17,Monday 17/01/2022 at 3:15pm to 3:45pm,"Subway (Haynes Shopping Centre),
-			Armadale Rd",Armadale,2022-01-22,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9860708,-32.1476353
 2022-01-15,Saturday 15/01/2022 at 5:00pm to 6:45pm,"Swan Yacht Club,
 			75 Riverside Rd",East Fremantle,2022-01-22,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.7628407,-32.0270805
 2022-01-17,Monday 17/01/2022 at 4:30pm to 6:00pm,"Body Transformation Studio,
@@ -88,235 +83,18 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			Waikiki Village Shopping Centre, 19 Read St",Waikiki,2022-01-21,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.753824,-32.3138981
 2022-01-14,Friday 14/01/2022 at 4:00pm to 6:00pm,"Bailey Nelson Optometrist,
 			The State Buildings, corner of Barrack St and St George's Terrace",Perth,2022-01-21,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8600234,-31.9555478
-2022-01-19,Wednesday 19/01/2022 at 5:00pm to 8:00pm,"Port Coogee Marina (Beach and BBQ area),
-			Ngarkal Beach",North Coogee,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7608489,-32.1012077
-2022-01-18,Tuesday 18/01/2022 at 3:30pm to 4:40pm,"Bunnings O'Connor,
-			Cnr South Street and, Yarrick St",O'Connor,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7970862,-32.063455
-2022-01-18,Tuesday 18/01/2022 at 4:40pm to 5:10pm,"Woolworths Coolbellup,
-			Coolbellup Village Shopping Centre, 1 Waverley Rd",Coolbellup,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8076128,-32.0809495
-2022-01-17,Monday 17/01/2022 at 12:15pm to 1:00pm,"ANZ Bank,
-			Kardinya Park Shopping Centre, 28/15 South St",Kardinya,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8162279,-32.0679797
-2022-01-17,Monday 17/01/2022 at 1:00pm to 1:20pm,"Coles Kardinya,
-			North Lake Road and South Street",Kardinya,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8157236,-32.06737
-2022-01-17,Monday 17/01/2022 at 1:20pm to 1:40pm,"Commonwealth Bank Spearwood Branch,
-			Shops 20 and 21, Stargate Shopping Centre, 432 Rockingham Rd",Spearwood,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7830592,-32.1148951
-2022-01-17,Monday 17/01/2022 at 1:30pm to 2:00pm,"Spudshed Spearwood,
-			Stargate Shopping Centre, 432 Rockingham Rd",Spearwood,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7830348,-32.1156475
-2022-01-17,Monday 17/01/2022 at 12:30pm to 1:00pm,"Yallingup General Store and Cafe,
-			16 Yallingup Beach Rd",Yallingup,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.0320717,-33.6455464
-2022-01-17,Monday 17/01/2022 at 12:50pm to 1:10pm,"Yallingup Gugelhupf,
-			18 Yallingup Beach Rd",Yallingup,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.0317535,-33.6456413
-2022-01-17,Monday 17/01/2022 at 1:20pm to 1:40pm,"Dunsborough Bakery
-			243 Naturaliste Terrace",Dunsborough,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.1065027,-33.6153988
-2022-01-17,"Monday 17/01/2022 at 1:30pm to 2:00pm
-			Tuesday 18/01/2022 at 12:45pm to 1:15pm","Coles (Dunsborough Centrepoint),
-			Dunn Bay Rd and Cape Naturaliste Rd",Dunsborough,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.1052192,-33.6155873
-2022-01-18,"Monday 17/01/2022 at 1:30pm to 2:00pm
-			Tuesday 18/01/2022 at 12:45pm to 1:15pm","Coles (Dunsborough Centrepoint),
-			Dunn Bay Rd and Cape Naturaliste Rd",Dunsborough,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.1052192,-33.6155873
-2022-01-17,Monday 17/01/2022 at 5:30pm to 6:00pm,"BP Cowaramup
-			Cnr Bussell Hwy and Roy Earl Dr",Cowaramup,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.1004448,-33.8551933
-2022-01-18,Tuesday 18/01/2022 at 7:50pm to 8:10pm,"Shell Coles Express (Bunbury Gateway),
-			12 Claughton Way",Glen Iris,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.6852934,-33.3347099
-2022-01-19,Wednesday 19/01/2022 at 12:00pm to 1:00pm,"Woolworths Waikiki
-			Waikiki Village Shopping Centre, 7 Read St",Waikiki,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7530229,-32.313777
-2022-01-19,Wednesday 19/01/2022 at 3:50pm to 4:20pm,"Jesters Waikiki,
-			Shop 7, Village Shopping Centre, Read Street",Waikiki,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7528852,-32.3136884
-2022-01-15,"Saturday 15/01/2022 at 7:30am to 1:30pm
-			Sunday 16/01/2022 at 7:30am to 8:00pm","IGA Willagee,
-			70 Archibald St",Willagee,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8070728,-32.0527957
-2022-01-16,"Saturday 15/01/2022 at 7:30am to 1:30pm
-			Sunday 16/01/2022 at 7:30am to 8:00pm","IGA Willagee,
-			70 Archibald St",Willagee,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8070728,-32.0527957
-2022-01-15,"Saturday 15/01/2022 at 9:30am to 10:30am
-			Sunday 16/01/2022 at 9:30am to 10:00am","Willagee Liquor Store,
-			72 Archibald Street",Willagee,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8066528,-32.0529627
-2022-01-16,"Saturday 15/01/2022 at 9:30am to 10:30am
-			Sunday 16/01/2022 at 9:30am to 10:00am","Willagee Liquor Store,
-			72 Archibald Street",Willagee,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8066528,-32.0529627
-2022-01-18,Tuesday 18/01/2022 at 2:00pm to 3:00pm,"BP Kardinya,
-			88 Gilbertson Road",Kardinya,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.819923,-32.068956
-2022-01-18,Tuesday 18/01/2022 at 10:30am to 11:00am,"Shell Coles Express Armadale,
-			Corner of South Western Highway and Dickens Place",Armadale,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0146636,-32.168888
-2022-01-17,"Monday 17/01/2022 at 7:00am to 7:45am
-			Tuesday 18/01/2022 at 7:00am to 7:30am","Marmion St Fresh & Gourmet,
-			344 Marmion Street",Melville,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7999067,-32.0433391
-2022-01-18,"Monday 17/01/2022 at 7:00am to 7:45am
-			Tuesday 18/01/2022 at 7:00am to 7:30am","Marmion St Fresh & Gourmet,
-			344 Marmion Street",Melville,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7999067,-32.0433391
-2022-01-16,Sunday 16/01/2022 at 6:00pm to 6:20pm,"Puma Munster,
-			512 Rockingham Road",Munster,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7841195,-32.1225649
-2022-01-15,Saturday 15/01/2022 at 11:30am to 12:00pm,"BWS Spearwood,
-			333 Rockingham Road",Spearwood,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7822935,-32.1048969
-2022-01-14,Friday 14/01/2022 at 7:00pm to 9:00pm,"IKEA,
-			6 Sunray Drive, Ellen Stirling Blvd",Innaloo,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8038253,-31.8967936
-2022-01-14,Friday 14/01/2022 at 6:00pm to 8:00pm,"Forrest Chase night markets,
-			200-204 Murray Street",Perth,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8592142,-31.9525996
-2022-01-14,Friday 14/01/2022 at 5:45pm to 6:15pm,"Enex 100 restrooms,
-			100 St George's Terrace",Perth,2022-01-21,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.858278,-31.9540637
-2022-01-18,"Tuesday 18/01/2022 at 8:00am to
-			Wednesday 19/01/2022 12:00pm","Wattle Grove Motel
-			610 Welshpool Rd East",Wattle Grove,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9894104,-32.0055351
-2022-01-19,"Tuesday 18/01/2022 at 8:00am to
-			Wednesday 19/01/2022 12:00pm","Wattle Grove Motel
-			610 Welshpool Rd East",Wattle Grove,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9894104,-32.0055351
-2022-01-18,Tuesday 18/01/2022 at 3:45pm to 4:30pm,"Subway Merredin
-			80 Barrack Street",Merredin,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,118.2780828,-31.4818687
-2022-01-18,Tuesday 18/01/2022 at 11:30am to 12:30pm,"BP Truckstop Balladonia
-			Eyre Highway",Balladonia,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,123.6170029,-32.352304
-2022-01-18,Tuesday 18/01/2022 at 8:15am to 11:00am,"BGC Fibre Warehouse and Distribution
-			13 Magnet Road",Canning Vale,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.923116,-32.0586546
-2022-01-17,Monday 17/01/2022 at 10:15am to 11:00am,"Guzman y Gomez Belmont
-			Belmont Forum Shopping Centre, 227 Belmont Ave",Cloverdale,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9345029,-31.9664454
-2022-01-17,Monday 17/01/2022 at 9:45am to 10:45am,"Big W Belmont
-			Belmont Forum Shopping Centre, 227 Belmont Ave",Cloverdale,2022-01-20,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9364943,-31.9647723
 2022-01-17,Monday 17/01/2022 at 4:15pm to 5:45pm,"Sagitta CrossFit Fitness
 			Unit 7/5 Milford St, East Victoria Park",East Victoria Park,2022-01-19,"Get tested immediately and isolate for 14 days from the date of last exposure, unless directly advised otherwise by the Department of Health. If you have not been contacted by the Department of Health phone 13 COVID (13 26843).",Test and Iso for 14d,black,115.9150975,-31.9908592
 2022-01-14,Friday 14/01/2022 at 2:00pm to 2:45pm,"Curtin Connect,
 			Building 102, Curtin University Bentley Campus, Kent Street",Bentley,2022-01-19,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8935915,-32.0049953
-2022-01-06,Thursday 6/01/2022 at 10:00am to 6:00pm,"Beauty Escape – Bassendean Shopping Centre
-			63 Old Perth Road",Bassendean,2022-01-19,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9508411,-31.9051155
-2022-01-14,Friday 14/01/2022 at 12:30pm to 1:30pm,"Campbells Wholesale Store,
-			Baile Road",Canning Vale,2022-01-19,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9033858,-32.0679487
-2022-01-13,Thursday 13/01/2022 at 8:15pm to 8:45pm,"IGA Canning Bridge,
-			916 Canning Highway",Applecross,2022-01-19,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8504578,-32.0115447
 2022-01-12,Wednesday 12/01/2022 at 10:40am - 8:20pm,"New U Massage
 			771 Beaufort St",Mount Lawley,2022-01-19,"Get tested immediately and isolate for 14 days from the date of last exposure, unless directly advised otherwise by the Department of Health. If you have not been contacted by the Department of Health phone 13 COVID (13 26843).",Test and Iso for 14d,black,115.8785847,-31.9272001
-2022-01-15,"Saturday 15/01/2022 12:15pm to 12:45pm
-			Sunday 16/01/2022 at 4:15pm to 4:45pm","Apple Perth City,
-			790 Hay Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.855729,-31.9528892
-2022-01-16,"Saturday 15/01/2022 12:15pm to 12:45pm
-			Sunday 16/01/2022 at 4:15pm to 4:45pm","Apple Perth City,
-			790 Hay Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.855729,-31.9528892
 2022-01-11,Tuesday 11/01/2022 at 9:30am - 9:00pm,"New U Massage
 			771 Beaufort St",Mount Lawley,2022-01-18,"Get tested immediately and isolate for 14 days from the date of last exposure, unless directly advised otherwise by the Department of Health. If you have not been contacted by the Department of Health phone 13 COVID (13 26843).",Test and Iso for 14d,black,115.8785847,-31.9272001
 2022-01-16,Sunday 16/01/2022 at 10:45am to 11:30am,"ToastFace Grillah,
 			Wolf Lane, Shop 7, 329 Murray Street",Perth,2022-01-18,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8556766,-31.9523481
 2022-01-14,Friday 14/01/2022 at 12:00pm to 4:00pm,"Curtin University Bentley Campus – B103 Library
 			Kent St",Bentley,2022-01-18,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8943677,-32.0054489
-2022-01-12,"Wednesday 12/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Thursday 13/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Saturday 15/01/2022 at 8:00am to 9:00am and 12:00pm to 1:00pm
-			 
-
-			Sunday 16/01/2022 at 8:00am to 9:00am and 4:00pm to 5:00pm","CPP Carpark (His Majesty's),
-			377 Murray Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8546027,-31.9515891
-2022-01-13,"Wednesday 12/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Thursday 13/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Saturday 15/01/2022 at 8:00am to 9:00am and 12:00pm to 1:00pm
-			 
-
-			Sunday 16/01/2022 at 8:00am to 9:00am and 4:00pm to 5:00pm","CPP Carpark (His Majesty's),
-			377 Murray Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8546027,-31.9515891
-2022-01-14,"Wednesday 12/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Thursday 13/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Saturday 15/01/2022 at 8:00am to 9:00am and 12:00pm to 1:00pm
-			 
-
-			Sunday 16/01/2022 at 8:00am to 9:00am and 4:00pm to 5:00pm","CPP Carpark (His Majesty's),
-			377 Murray Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8546027,-31.9515891
-2022-01-15,"Wednesday 12/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Thursday 13/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Saturday 15/01/2022 at 8:00am to 9:00am and 12:00pm to 1:00pm
-			 
-
-			Sunday 16/01/2022 at 8:00am to 9:00am and 4:00pm to 5:00pm","CPP Carpark (His Majesty's),
-			377 Murray Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8546027,-31.9515891
-2022-01-16,"Wednesday 12/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Thursday 13/01/2022 at 8:00am to 9:00am and 5:15pm to 6:15pm
-			 
-
-			Saturday 15/01/2022 at 8:00am to 9:00am and 12:00pm to 1:00pm
-			 
-
-			Sunday 16/01/2022 at 8:00am to 9:00am and 4:00pm to 5:00pm","CPP Carpark (His Majesty's),
-			377 Murray Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8546027,-31.9515891
-2022-01-13,Thursday 13/01/2022 at 11:30am - 11:45am,"Priceline Pharmacy
-			Kwinana Marketplace Shopping Centre, 4 Chisham Ave",Kwinana,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8141961,-32.2459689
-2022-01-14,Friday 14/01/2022 at 3:45pm - 6:45pm,"Woolworths Mundaring
-			Mundaring Shopping Centre Cnr Mann St and Great Eastern Hwy",Mundaring,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.1644537,-31.901268
-2022-01-12,"Wednesday 12/01/2022 at 12:00pm to
-
-			Friday 14/01/2022 at 10:00am","RAC Karri Valley Resort
-			11342 Vasse Highway",Beedelup,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.850881,-34.4205734
-2022-01-13,"Wednesday 12/01/2022 at 12:00pm to
-
-			Friday 14/01/2022 at 10:00am","RAC Karri Valley Resort
-			11342 Vasse Highway",Beedelup,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.850881,-34.4205734
-2022-01-14,"Wednesday 12/01/2022 at 12:00pm to
-
-			Friday 14/01/2022 at 10:00am","RAC Karri Valley Resort
-			11342 Vasse Highway",Beedelup,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.850881,-34.4205734
-2022-01-14,Friday 14/01/2022 at 7:00am - 9:30am,"RAC Karri Valley Resort, Lakeside Restaurant
-			11342 Vasse Highway",Beedelup,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.850881,-34.4205734
-2022-01-13,Thursday 13/01/2022 at 2:00pm - 3:00pm,"Mammoth Cave
-			Caves Rd",Forest Grove,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.0296771,-34.060037
-2022-01-13,Thursday 13/01/2022 at 1:45pm - 2:15pm,"Margaret River Visitors Centre 
-			100 Bussell Hwy",Margaret River,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.0738992,-33.9490426
-2022-01-13,Thursday 13/01/2022 at 1:30pm - 2:00pm,"IGA Margaret River
-			110 Bussell Hwy",Margaret River,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.0740423,-33.9493111
-2022-01-13,Thursday 13/01/2022 at 1:15pm - 1:45pm,"Coles Margaret River
-			132 Bussell Hwy",Margaret River,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.0728347,-33.9515064
-2022-01-13,Thursday 13/01/2022 at 7:00am - 9:30am,"RAC Karri Valley Resort, Lakeside Restaurant
-			11342 Vasse Highway",Beedelup,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.850881,-34.4205734
-2022-01-13,Thursday 13/01/2022 at 12:45pm to 1:30pm,"Awesome Warehouse 
-			489 Nicholson Rd",Canning Vale,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9341463,-32.0651682
-2022-01-13,Thursday 13/01/2022 at 11:00am to 1:00pm,"Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0094689,-31.8895648
-2022-01-13,Thursday 13/01/2022 at 11:30am to 12:45pm,"Just Jeans, Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.009767,-31.8893829
-2022-01-13,Thursday 13/01/2022 at 11:30am to 12:45pm,"Priceline Pharmacy, Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0077825,-31.8896967
-2022-01-13,Thursday 13/01/2022 at 11:00am to 1:00pm,"Suzanne Grae, Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0086542,-31.8896585
-2022-01-13,Thursday 13/01/2022 at 11:30am to 12:45pm,"Betts, Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0103943,-31.8898252
-2022-01-13,Thursday 13/01/2022 at 11:30am to 12:45pm,"Portmans, Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0095779,-31.8893816
-2022-01-13,Thursday 13/01/2022 at 9:15am to 9:45am,"Amcal Chemist Mundaring 
-			4/5 Nichol St",Mundaring,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.1659657,-31.9008065
-2022-01-12,Wednesday 12/01/2022 at 12:45pm to 1:30pm,"Kmart Cannington
-			1382 Albany Hwy",Cannington,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9394614,-32.0204259
-2022-01-12,Wednesday 12/01/2022 at 10:15am to 1:30pm,"Booragoon Garden City Shopping Centre
-			125 Riseley St",Booragoon,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8366491,-32.0340621
-2022-01-12,Wednesday 12/01/2022 at 12:20pm to 12:50pm,"Kmart, Garden City Shopping Centre
-			125 Riseley St",Booragoon,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8372142,-32.0332722
-2022-01-12,Wednesday 12/01/2022 at 12:00pm to 1:15pm,"MECCA, Garden City Shopping Centre
-			125 Riseley St",Booragoon,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.836178,-32.034119
-2022-01-12,Wednesday 12/01/2022 at 12:15pm to 12:45pm,"David Jones, Garden City Shopping Centre
-			125 Riseley St",Booragoon,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.835836,-32.0348375
-2022-01-12,Wednesday 12/01/2022 at 10:40am to 11:30am,"Villains, Garden City Shopping Centre
-			125 Riseley St",Booragoon,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8362404,-32.0337908
-2022-01-12,Wednesday 12/01/2022 at 10:30am to 10:50am,"Witchery, Garden City Shopping Centre
-			125 Riseley St",Booragoon,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8369908,-32.0345055
-2022-01-11,Tuesday 11/01/2022 at 11:15am to 11:30am,"Bakers Delight
-			Gladstone Rd & Marlboro Avenue",Swan View,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.047537995381,-31.885066103198
-2022-01-12,Wednesday 12/01/2022 at 8:45am to 9:15am,"Chemist Warehouse
-			Tenancy 12A/7 Clayton St, Midland WA 6056",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0163978,-31.8970303
-2022-01-12,Wednesday 12/01/2022 at 7:00pm to 7:45pm,"Supa IGA Northbridge
-			150 Newcastle St",Northbridge,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8638204,-31.9471339
-2022-01-11,Tuesday 11/01/2022 at 10:30am to 11:20am,"Coles 
-			Gladstone Rd & Marlboro Avenue",Swan View,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.046765967395,-31.8880498303858
-2022-01-11,Tuesday 11/01/2022 at 9:30am to 10:30am,"Chemist Warehouse
-			Tenancy 12A/7 Clayton St, Midland WA 6056",Midland,2022-01-17,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0163978,-31.8970303
 2022-01-14,Friday 14/01/2022 at 8:10pm - 10:00pm,"U Natural Spa Therapy
 			894 Canning Highway",Applecross,2022-01-16,"Get tested immediately and isolate for 14 days from the date of last exposure, unless directly advised otherwise by the Department of Health. If you have not been contacted by the Department of Health phone 13 COVID (13 26843).",Test and Iso for 14d,black,115.8480382,-32.0130616
 2022-01-14,Friday 14/01/2022 at 10:40am - 8:20pm,"New U Massage
@@ -477,14 +255,8 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			894 Canning Highway",Applecross,2022-01-15,"Get tested immediately and isolate for 14 days from the date of last exposure, unless directly advised otherwise by the Department of Health. If you have not been contacted by the Department of Health phone 13 COVID (13 26843).",Test and Iso for 14d,black,115.8480382,-32.0130616
 2022-01-13,Thursday 13/01/2022 at 1:00pm to 2:15pm,"The Margaret River Chocolate Company
 			5123 W Swan Rd",West Swan,2022-01-15,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.986468,-31.8520838
-2022-01-13,Thursday 13/01/2022 at 9:45am to 10:30am,"Pharmacy 777 Canning Bridge
-			900 Canning Hwy",Applecross,2022-01-15,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8483599,-32.0128145
 2022-01-12,Wednesday 12/01/2022 at 7:30pm to 9:00pm,"Xiaolongkan Chinese Fondue
 			Unit 2 / 191 James St",Northbridge,2022-01-15,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.855466,-31.947453
-2022-01-12,Wednesday 12/01/2022 at 2:00pm to 3:30pm,"Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-15,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0094689,-31.8895648
-2022-01-12,Wednesday 12/01/2022 at 2:15pm to 3:00pm,"Kmart Midland Gate Shopping Centre
-			274 Great Eastern Hwy",Midland,2022-01-15,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0112532,-31.8892842
 2022-01-12,Wednesday 12/01/2022 at 2:15pm - 2:45pm,"Telstra shop
 			Midland Gate Shopping Centre,
 			274 Great Eastern Hwy",Midland,2022-01-15,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,116.0104705,-31.8898755
@@ -496,8 +268,6 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 2022-01-11,Tuesday 11/01/2022 at 2:40pm,"Spiderman movie
 			Hoyts Carousel Cinema
 			1382 Albany Highway",Cannington,2022-01-15,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9390176,-32.0199521
-2022-01-11,Tuesday 11/01/2022 at 1:30pm to 6:00pm,"Hoyts Carousel Cinema
-			1382 Albany Highway",Cannington,2022-01-15,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9390176,-32.0199521
 2022-01-11,Tuesday 11/01/2022 at 1:45pm to 2:40pm,"San Churros
 			Kiosk K105 / 1382 Albany Highway,",Cannington,2022-01-15,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.9382998,-32.0194963
 2022-01-11,Tuesday 11/01/2022 at 11:30am to 1:00pm,"Woo Jeong Korean
@@ -536,26 +306,3 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			630 Karel Ave",Jandakot,2022-01-14,"Get tested immediately. Unless symptomatic, you are not required to isolate while awaiting negative result.",Test and Iso if symptomatic,orange,115.8705596,-32.0902719
 2022-01-05,Wednesday 05/01/2022 at 2:30pm to 3:30pm,"Homecraft Textiles
 			Albany Hwy, St James",St James,2022-01-14,"Get tested immediately. Unless symptomatic, you are not required to isolate while awaiting negative result.",Test and Iso if symptomatic,orange,115.912865,-31.99427
-2022-01-11,Tuesday 11/01/2022 at 8:15am to 9:15am,"Harvest Lakes Discount Drug Store Pharmacy
-			2/23 Gibbs Rd",Atwell,2022-01-12,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8616495,-32.1571255
-2022-01-10,Monday 10/01/2022 at 12:00pm to 1:15pm,"Bunnings Midland
-			Cnr Lloyd & Clayton St",Midland,2022-01-12,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,116.0121824,-31.8984963
-2022-01-08,Saturday 08/01/2022 at 11:30am to 2:30pm,"Suisen Japanese Restaurant
-			8/57 Old Perth Rd",Bassendean,2022-01-12,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9508451,-31.905172
-2022-01-07,Friday 07/01/2022 at 8:30pm to 9:30pm,"Harvest Lakes Discount Drug Store Pharmacy
-			2/23 Gibbs Rd",Atwell,2022-01-12,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8616495,-32.1571255
-2022-01-09,Sunday 09/01/2022 at 12:00pm to 12:15pm,"Truck Moves Australia
-			253 Berkshire Road",Forrestfield,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9986017,-31.9662711
-2022-01-09,Sunday 09/01/2022 at 10:45am to 11:15am,"Truck Moves Australia
-			253 Berkshire Road",Forrestfield,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.9986017,-31.9662711
-2022-01-08,Saturday 08/01/2022 at 8:45am to 9:45am,"Woolworths Cockburn Gateway
-			816 Beeliar Drive",Success,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.8580816,-32.1323888
-2022-01-09,Sunday 09/01/2022 at 7:00am to 7:45am,"Shell (Dunning’s) Southern Cross
-			22 Great Eastern Hwy",Southern Cross,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,119.3318483,-31.2321637
-2022-01-08,Saturday 08/01/2022 at 4:45pm - Sunday 09/01/2022 at 4:30am,"Coolgardie Goldrush Motel
-			47-53 Bailey St",Coolgardie,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,121.1655238,-30.954448
-2022-01-09,Saturday 08/01/2022 at 4:45pm - Sunday 09/01/2022 at 4:30am,"Coolgardie Goldrush Motel
-			47-53 Bailey St",Coolgardie,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,121.1655238,-30.954448
-2022-01-08,Saturday 08/01/2022 at 2:00pm to 2:45pm,"Norseman BP,
-			1 Coolgardie-Esperance Hwy",Norseman,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,121.7792068,-32.1855494
-2022-01-08,Saturday 08/01/2022 at 9:45am to 10:30am,Caiguna Roadhouse,Caiguna,2022-01-11,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,125.4871635,-32.2712075
