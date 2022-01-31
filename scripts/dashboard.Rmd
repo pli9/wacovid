@@ -163,7 +163,7 @@ All Exposure Sites
 Row {data-width=1000 .tabset}
 -----------------------------------------------------------------------
 
-### Map
+### Cluster
 
 ```{r}
 addAwesomeMarkers_for_Marker_Color <- function(map, color) {
@@ -191,7 +191,7 @@ addAwesomeMarkers_for_Marker_Color <- function(map, color) {
       library = 'ion',
       markerColor = Marker_Color
     ),
-    # clusterOptions = markerClusterOptions(maxClusterRadius = 0.01, spiderfyDistanceMultiplier = 1.5),
+    clusterOptions = markerClusterOptions(showCoverageOnHover = FALSE, maxClusterRadius = 0.01, spiderfyDistanceMultiplier = 1.5),
     label = labels
   )
 }
@@ -206,6 +206,40 @@ leaflet(height = 1000) %>%
     overlayGroups = Health_Advice_Mapping[, Health_Advice_Short],
     options = layersControlOptions(collapsed = FALSE)
   )
+```
+
+### Heatmap
+
+```{r}
+leaflet(height = 1000) %>%
+  addTiles() %>%
+  # addAwesomeMarkers_for_Marker_Color('black') %>%
+  # addAwesomeMarkers_for_Marker_Color('red') %>%
+  # addAwesomeMarkers_for_Marker_Color('yellow') %>%
+  # addAwesomeMarkers_for_Marker_Color('blue') %>%
+  leaflet.extras::addHeatmap(
+    data = sites[!is.na(lon)],
+    lng = ~lon,
+    lat = ~lat,
+    intensity = ~Health_Advice_Severity/4,
+    radius = 15,
+    blur = 15,
+    group = 'Heat Map'
+  ) # %>%
+  # leaflet.extras::addHeatmap(
+  #   data = sites[1],
+  #   lng = ~lon,
+  #   lat = ~lat,
+  #   intensity = NA,
+  #   radius = 0,
+  #   blur = 0,
+  #   group = 'No Heat Map'
+  # ) %>%
+  # addLayersControl(
+  #   baseGroups = c('Heat Map', 'No Heat Map'),
+  #   overlayGroups = c(Health_Advice_Mapping[, Health_Advice_Short]),
+  #   options = layersControlOptions(collapsed = FALSE)
+  # )
 ```
 
 ### Table
@@ -246,47 +280,6 @@ datatable(
       paddingLeft = '10px',
       paddingRight = '10px'
     )
-```
-
-
-All (Heatmap)
-======================================================================
-
-Row {data-width=1000}
------------------------------------------------------------------------
-
-### Heatmap of Exposure Sites
-
-```{r}
-leaflet(height = 1000) %>%
-  addTiles() %>%
-  # addAwesomeMarkers_for_Marker_Color('black') %>%
-  # addAwesomeMarkers_for_Marker_Color('red') %>%
-  # addAwesomeMarkers_for_Marker_Color('yellow') %>%
-  # addAwesomeMarkers_for_Marker_Color('blue') %>%
-  leaflet.extras::addHeatmap(
-    data = sites[!is.na(lon)],
-    lng = ~lon,
-    lat = ~lat,
-    intensity = ~Health_Advice_Severity/4,
-    radius = 15,
-    blur = 15,
-    group = 'Heat Map'
-  ) # %>%
-  # leaflet.extras::addHeatmap(
-  #   data = sites[1],
-  #   lng = ~lon,
-  #   lat = ~lat,
-  #   intensity = NA,
-  #   radius = 0,
-  #   blur = 0,
-  #   group = 'No Heat Map'
-  # ) %>%
-  # addLayersControl(
-  #   baseGroups = c('Heat Map', 'No Heat Map'),
-  #   overlayGroups = c(Health_Advice_Mapping[, Health_Advice_Short]),
-  #   options = layersControlOptions(collapsed = FALSE)
-  # )
 ```
 
 
