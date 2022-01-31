@@ -31,6 +31,10 @@ p {
 .dataTables_scrollBody {
     max-height: 100% !important;
 }
+.irs--shiny.irs-with-grid {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 </style>
 
 ```{r setup, include=FALSE}
@@ -107,9 +111,14 @@ leaflet(height = 1000) %>%
     icon = awesomeIcons(
       icon = 'ios-close',
       library = 'ion',
-      markerColor = ~Marker_Color
+      markerColor = ~Marker_Color,
     ),
-    label = ~label
+    label = ~label,
+    labelOptions = labelOptions(
+      style = list(
+        'font-size' = '12px'
+      )
+    )
   )
 ```
 
@@ -166,6 +175,17 @@ Row {data-width=1000 .tabset}
 ### Cluster
 
 ```{r}
+UniqueHealthAdviceShort <- sites[, unique(Health_Advice_Short)] %>% as.character()
+UniqueHealthAdviceShort <- Health_Advice_Mapping[Health_Advice_Short %in% UniqueHealthAdviceShort, Health_Advice_Short]
+groups <- c(
+  'Test and Iso for 14d' = "<div class='awesome-marker-icon-black awesome-marker leaflet-zoom-animated leaflet-interactive' tabindex='0' style='position: relative; display: inline-block; width: 35px; height: 45px;'><i style='' class=' ion ion-ios-close  icon-white'></i></div>Test and Iso for 14d",
+  'Test and Iso until negative' = "<div class='awesome-marker-icon-red awesome-marker leaflet-zoom-animated leaflet-interactive' tabindex='0' style='position: relative; display: inline-block; width: 35px; height: 45px;'><i style='' class=' ion ion-ios-close  icon-white'></i></div>Test and Iso until negative",
+  'Test and Iso if symptomatic' = "<div class='awesome-marker-icon-orange awesome-marker leaflet-zoom-animated leaflet-interactive' tabindex='0' style='position: relative; display: inline-block; width: 35px; height: 45px;'><i style='' class=' ion ion-ios-close  icon-white'></i></div>Test and Iso if symptomatic",
+  'Monitor for symptoms' = "<div class='awesome-marker-icon-blue awesome-marker leaflet-zoom-animated leaflet-interactive' tabindex='0' style='position: relative; display: inline-block; width: 35px; height: 45px;'><i style='' class=' ion ion-ios-close  icon-white'></i></div>Monitor for symptoms"
+)
+groups <- sapply(UniqueHealthAdviceShort, function(x) if(!is.null(groups[x])) groups[x])
+names(groups) <- UniqueHealthAdviceShort
+
 addAwesomeMarkers_for_Marker_Color <- function(map, color) {
   data.filt <- sites[!is.na(lon) & Marker_Color == color, .(Date_Time, Location, Suburb, Date_updated, Health_advice, Health_Advice_Short, Marker_Color, lon, lat)]
   labels <- data.filt[, paste0(
@@ -183,16 +203,21 @@ addAwesomeMarkers_for_Marker_Color <- function(map, color) {
   addAwesomeMarkers(
     map,
     data = data.filt,
-    group = ~Health_Advice_Short,
+    group = unname(groups[data.filt[,as.character(unique(Health_Advice_Short))]]),
     lng = ~lon,
     lat = ~lat,
     icon = ~awesomeIcons(
       icon = 'ios-close',
       library = 'ion',
-      markerColor = Marker_Color
+      markerColor = Marker_Color,
     ),
     clusterOptions = markerClusterOptions(showCoverageOnHover = FALSE, maxClusterRadius = 0.01, spiderfyDistanceMultiplier = 1.5),
-    label = labels
+    label = labels,
+    labelOptions = labelOptions(
+      style = list(
+        'font-size' = '12px'
+      )
+    )
   )
 }
 
@@ -200,10 +225,11 @@ leaflet(height = 1000) %>%
   addTiles() %>%
   addAwesomeMarkers_for_Marker_Color('black') %>%
   addAwesomeMarkers_for_Marker_Color('red') %>%
-  addAwesomeMarkers_for_Marker_Color('yellow') %>%
+  addAwesomeMarkers_for_Marker_Color('orange') %>%
   addAwesomeMarkers_for_Marker_Color('blue') %>%
   addLayersControl(
-    overlayGroups = Health_Advice_Mapping[, Health_Advice_Short],
+    overlayGroups = unname(groups),
+    # overlayGroups = Health_Advice_Mapping[,Health_Advice_Short],
     options = layersControlOptions(collapsed = FALSE)
   )
 ```
