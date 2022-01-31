@@ -29,11 +29,15 @@ if(current_update != previous_update) {
   library(git2r)
   
   # Sites
-  sites <- html_table(webpage)[[1]] %>% as.data.table()
+  sites <- rbind(html_table(webpage)[[1]] %>% as.data.table(), html_table(webpage)[[2]] %>% as.data.table() %>% .[,-c('')])
+  setorder(sites, -'Date updated')
   
   # Clean up Data
   setnames(sites, c('Date_Time', 'Suburb', 'Location', 'Date_updated', 'Health_advice'))
   sites[,Date_updated := as.Date(Date_updated, '%d/%m/%Y')]
+  sites[, Date_Time := gsub('/1/2022,', '/01/2022', Date_Time)]
+  sites[, Date_Time := gsub('/01/2022,', '/01/2022', Date_Time)]
+  sites[Date_updated == '2022-01-28', Date_Time := gsub('02/2022', '01/2022', Date_Time)]
   
   ## Modify Date_Time
   sites_Date_Time <- sapply(sites[,Date_Time], function(x) strsplit(x, '\n\t\t\t'))
@@ -125,13 +129,13 @@ if(current_update != previous_update) {
   # sites_by_day[, start := Date_Time_Day]
   # sites_by_day[, end := Date_Time_Day + 1]
   
+  writeLines(current_update, paste0(folder, 'data/Last_Updated.txt'))
+  
   # Run Dashboard
   rmarkdown::render(
     paste0(folder, "scripts/dashboard.Rmd"),
     output_file = paste0(folder, "dashboard.html")
   )
-  
-  writeLines(current_update, paste0(folder, 'data/Last_Updated.txt'))
   
   repo <- repository(folder)
   config(repo, user.name="Peter Li", user.email="pli@westswan.com")
