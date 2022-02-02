@@ -27,7 +27,7 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			393 Murray Street",Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8540162,-31.9514937
 2022-01-29,"Saturday 29/01/2022
 			12:15pm to 1:15pm","Tribute Coffee & Kitchen
-			19 Tribute Street West",Shelley,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,-117.9198334,33.7603992
+			19 Tribute Street West",Shelley,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.716479892588,-33.318969070892
 2022-01-28,"Friday 28/01/2022
 			11:30pm to Saturday 29/01/2022 2:00am","Aberdeen Hotel Northbridge
 			Bollywood Bash event
@@ -50,7 +50,7 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			25 Preston Street",Como,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,red,115.8588563,-31.9939818
 2022-01-27,"Thursday 27/01/2022
 			2:00pm to 4:00pm","Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,-79.3806994,43.6544382
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.716481233693,-33.3189657089084
 2022-01-28,"Friday 28/01/2022
 			4:45pm to 5:00pm","Noodler's 
 			Eaton Shopping Centre
@@ -65,7 +65,7 @@ Date_Time_Day,Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice
 			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.7152024,-33.3189382
 2022-01-28,"Friday 28/01/2022
 			1:30pm to 5:00pm","Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,-79.3806994,43.6544382
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,115.716481233693,-33.3189657089084
 2022-01-27,"Thursday 27/01/2022
 			10:15am to10:45am","Liberty Dongara
 			30217 Brand Hwy",Dongara,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,blue,114.9563777,-29.2530034
