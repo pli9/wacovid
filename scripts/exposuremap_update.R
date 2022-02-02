@@ -29,8 +29,14 @@ if(current_update != previous_update) {
   library(git2r)
   
   # Sites
-  sites <- rbind(html_table(webpage)[[1]] %>% as.data.table(), html_table(webpage)[[2]] %>% as.data.table() %>% .[,-c('')])
-  setorder(sites, -'Date updated')
+  sites_test <- html_table(webpage)[[1]] %>% as.data.table()
+  sites_monitor <- html_table(webpage)[[2]] %>% as.data.table() %>% .[,-c('')]
+  sites_monitor[`Exposure date & time` == 'Friday 28/01/2022\n\t\t\t2:15pm to 2:30pm', `Health advice` := `Date updated`]
+  sites_monitor[`Exposure date & time` == 'Friday 28/01/2022\n\t\t\t2:15pm to 2:30pm', `Date updated` := `Location`]
+  sites_monitor[`Exposure date & time` == 'Friday 28/01/2022\n\t\t\t2:15pm to 2:30pm', `Location` := `Suburb`]
+  sites_monitor[`Exposure date & time` == 'Friday 28/01/2022\n\t\t\t2:15pm to 2:30pm', `Suburb` := 'Eaton']
+  
+  sites <- rbind(sites_test, sites_monitor)
   
   # Clean up Data
   setnames(sites, c('Date_Time', 'Suburb', 'Location', 'Date_updated', 'Health_advice'))
@@ -38,6 +44,8 @@ if(current_update != previous_update) {
   sites[, Date_Time := gsub('/1/2022,', '/01/2022', Date_Time)]
   sites[, Date_Time := gsub('/01/2022,', '/01/2022', Date_Time)]
   sites[Date_updated == '2022-01-28', Date_Time := gsub('02/2022', '01/2022', Date_Time)]
+  
+  setorder(sites, -Date_updated)
   
   ## Modify Date_Time
   sites_Date_Time <- sapply(sites[,Date_Time], function(x) strsplit(x, '\n\t\t\t'))
