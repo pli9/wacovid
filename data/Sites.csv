@@ -1,8 +1,79 @@
 Date_Time,Location,Suburb,Date_updated,Health_advice,Health_Advice_Short,Health_Advice_Severity,Marker_Color,lon,lat
+"Thursday 27/01/2022
+			7:00am to 1:00pm","Chuck's Cantina
+			125 St Georges Terrace",Perth,2022-02-02,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8554486,-31.9546119
+"Thursday 27/01/2022
+			5:00am to 6:00am","Jetts Gym Applecross
+			886 Canning Highway",Applecross,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8470535,-32.013298
+Wednesday 26/01/2022 9:00am to 10:00am,"Jetts Gym Applecross
+			886 Canning Highway",Applecross,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8470535,-32.013298
+"Sunday 30/01/2022
+			10:00am to 12:30pm","Cockburn ARC Basketball Courts
+			31 Veterans Parade",Cockburn Central,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.850766,-32.1255031
 "Friday 28/01/2022
-			2:15pm to 2:30pm",01/02/2022,"Priceline
+			5:00am to 6:00am","Jetts Gym Applecross
+			886 Canning Highway",Applecross,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8470535,-32.013298
+"Saturday 29/01/2022
+			3:30pm to 4:00 pm","The Coffee Club (Westfield Carousel)
+			1382 Albany Highway",Cannington,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.9390111,-32.020723
+"Saturday 29/01/2022
+			3:30am to 4:24am","Uncle Billy's Chinese Restaurant
+			Shop 9, 66 Roe Street",Northbridge,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8573675,-31.9491251
+"Saturday 29/01/2022
+			2:30am to 3:30am","Amplifier Bar Murray Street
+			393 Murray Street",Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8541961,-31.951526
+"Saturday 29/01/2022
+			2:30am to 3:30am","Magnet House
+			393 Murray Street",Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8540162,-31.9514937
+"Saturday 29/01/2022
+			12:15pm to 1:15pm","Tribute Coffee & Kitchen
+			19 Tribute Street West",Shelley,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,-117.9198334,33.7603992
+"Friday 28/01/2022
+			11:30pm to Saturday 29/01/2022 2:00am","Aberdeen Hotel Northbridge
+			Bollywood Bash event
+			90 Aberdeen Street",Northbridge,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8591208,-31.9464615
+"Thursday 27/01/2022
+			8:00pm to 8:20pm","Ciao Italia
+			273 Mill Point Road",South Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8688829,-31.9777672
+"Thursday 27/01/2022
+			6:00pm to 7:15pm","Cedar Cafe Cannington
+			197 Sevenoaks Street",Cannington,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.9385635,-32.0077447
+"Thursday 27/01/2022
+			5:00pm to 7:00pm","Bailey Brewing Company
+			9861 West Swan Road",Henley Brook,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,116.0002582,-31.812648
+"Wednesday 26/01/2022
+			6:00pm to 8:00pm","The Karalee on Preston
+			25 Preston Street",Como,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8588563,-31.9939818
+"Thursday 27/01/2022
+			2:00pm to 4:00pm","Eaton Shopping Centre
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,-79.3806994,43.6544382
+"Friday 28/01/2022
+			4:45pm to 5:00pm","Noodler's 
 			Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",,,,,,115.7163442,-33.3180716
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.7161742,-33.3194206
+"Friday 28/01/2022
+			2:15pm to 2:30pm","Priceline
+			Eaton Shopping Centre
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.7163442,-33.3180716
+"Friday 28/01/2022
+			1:30pm to 2:10pm","Coles
+			Eaton Shopping Centre
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.7152024,-33.3189382
+"Friday 28/01/2022
+			1:30pm to 5:00pm","Eaton Shopping Centre
+			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,-79.3806994,43.6544382
+"Thursday 27/01/2022
+			10:15am to10:45am","Liberty Dongara
+			30217 Brand Hwy",Dongara,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,114.9563777,-29.2530034
+"Thursday 27/01/2022
+			7:00pm to 8:00pm","Oakover Grounds
+			14 Yukich Close",Middle Swan,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,116.007187,-31.845108
+"Thursday 27/01/2022
+			4:30pm to 5:00pm","Oakover Grounds
+			14 Yukich Close",Middle Swan,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,116.007187,-31.845108
+"Friday 28/01/2022
+			5:25am to 5:45am","BP Southern Cross
+			Great Eastern Hwy",Southern Cross,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,119.3314216,-31.2317175
 "Monday 24/01/2022
 			6:00pm to 6:45pm","Leisurelife Centre (gym), Victoria Park
 			Cnr Gloucester Street and Kent Street",Victoria Park,2022-01-31,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8993606,-31.984106
@@ -372,74 +443,3 @@ Sunday 16/01/2022 at 10:45am to 11:30am,"ToastFace Grillah,
 
 			Sunday 16/01/2022 at 8:00am to 9:00am and 4:00pm to 5:00pm","CPP Carpark (His Majesty's),
 			377 Murray Street",Perth,2022-01-18,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.8546027,-31.9515891
-"Thursday 27/01/2022
-			7:00am to 1:00pm","Chuck's Cantina
-			125 St Georges Terrace",Perth,2022-02-02,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8554486,-31.9546119
-"Thursday 27/01/2022
-			5:00am to 6:00am","Jetts Gym Applecross
-			886 Canning Highway",Applecross,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8470535,-32.013298
-Wednesday 26/01/2022 9:00am to 10:00am,"Jetts Gym Applecross
-			886 Canning Highway",Applecross,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8470535,-32.013298
-"Sunday 30/01/2022
-			10:00am to 12:30pm","Cockburn ARC Basketball Courts
-			31 Veterans Parade",Cockburn Central,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.850766,-32.1255031
-"Friday 28/01/2022
-			5:00am to 6:00am","Jetts Gym Applecross
-			886 Canning Highway",Applecross,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8470535,-32.013298
-"Saturday 29/01/2022
-			3:30pm to 4:00 pm","The Coffee Club (Westfield Carousel)
-			1382 Albany Highway",Cannington,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.9390111,-32.020723
-"Saturday 29/01/2022
-			3:30am to 4:24am","Uncle Billy's Chinese Restaurant
-			Shop 9, 66 Roe Street",Northbridge,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8573675,-31.9491251
-"Saturday 29/01/2022
-			2:30am to 3:30am","Amplifier Bar Murray Street
-			393 Murray Street",Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8541961,-31.951526
-"Saturday 29/01/2022
-			2:30am to 3:30am","Magnet House
-			393 Murray Street",Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8540162,-31.9514937
-"Saturday 29/01/2022
-			12:15pm to 1:15pm","Tribute Coffee & Kitchen
-			19 Tribute Street West",Shelley,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,-117.9198334,33.7603992
-"Friday 28/01/2022
-			11:30pm to Saturday 29/01/2022 2:00am","Aberdeen Hotel Northbridge
-			Bollywood Bash event
-			90 Aberdeen Street",Northbridge,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8591208,-31.9464615
-"Thursday 27/01/2022
-			8:00pm to 8:20pm","Ciao Italia
-			273 Mill Point Road",South Perth,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8688829,-31.9777672
-"Thursday 27/01/2022
-			6:00pm to 7:15pm","Cedar Cafe Cannington
-			197 Sevenoaks Street",Cannington,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.9385635,-32.0077447
-"Thursday 27/01/2022
-			5:00pm to 7:00pm","Bailey Brewing Company
-			9861 West Swan Road",Henley Brook,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,116.0002582,-31.812648
-"Wednesday 26/01/2022
-			6:00pm to 8:00pm","The Karalee on Preston
-			25 Preston Street",Como,2022-02-01,"Get tested immediately and isolate until you receive a negative result, unless directly advised otherwise by the Department of Health.",Test and Iso until negative,3,red,115.8588563,-31.9939818
-"Thursday 27/01/2022
-			2:00pm to 4:00pm","Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,-79.3806994,43.6544382
-"Friday 28/01/2022
-			4:45pm to 5:00pm","Noodler's 
-			Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.7161742,-33.3194206
-"Friday 28/01/2022
-			1:30pm to 2:10pm","Coles
-			Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,115.7152024,-33.3189382
-"Friday 28/01/2022
-			1:30pm to 5:00pm","Eaton Shopping Centre
-			Cnr Eaton Dr & Recreation Dr",Eaton,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,-79.3806994,43.6544382
-"Thursday 27/01/2022
-			10:15am to10:45am","Liberty Dongara
-			30217 Brand Hwy",Dongara,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,114.9563777,-29.2530034
-"Thursday 27/01/2022
-			7:00pm to 8:00pm","Oakover Grounds
-			14 Yukich Close",Middle Swan,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,116.007187,-31.845108
-"Thursday 27/01/2022
-			4:30pm to 5:00pm","Oakover Grounds
-			14 Yukich Close",Middle Swan,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,116.007187,-31.845108
-"Friday 28/01/2022
-			5:25am to 5:45am","BP Southern Cross
-			Great Eastern Hwy",Southern Cross,2022-02-01,"Monitor for symptoms unless directly advised otherwise by the Department of Health. If symptoms develop, get tested and isolate.",Monitor for symptoms,1,blue,119.3314216,-31.2317175
