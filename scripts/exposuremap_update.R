@@ -1,15 +1,9 @@
 library(rvest)
 
-# Sys.setenv(http_proxy = "http://govnext-proxy.finance.wa.gov.au:80")
-# Sys.setenv(https_proxy = "http://govnext-proxy.finance.wa.gov.au:80")
-
 url <- 'https://www.wa.gov.au/government/covid-19-coronavirus/covid-19-coronavirus-locations-visited-confirmed-cases'
 
 webpage <- read_html(url)
 
-# folder <- 'C:/Users/zdtf0342/OneDrive - Treasury WA/COVID/'
-# folder <- 'C:/Users/pli/Documents/COVID/'
-# folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
 folder <- Sys.getenv('WACOVID-FOLDER')
 
 # Date updated
