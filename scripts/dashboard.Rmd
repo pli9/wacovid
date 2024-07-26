@@ -47,8 +47,6 @@ library(DT)
 library(shiny)
 # library(summarywidget)
 
-# folder <- 'C:/Users/pli/Documents/COVID/'
-# folder <- 'C:/Users/zdtf0342/Documents/wacovid/'
 folder <- Sys.getenv('WACOVID_FOLDER')
 
 Health_Advice_Mapping <- fread(paste0(folder, 'data/Health_Advice_Mapping.csv'), encoding = 'UTF-8')
