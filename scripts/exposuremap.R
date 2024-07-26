@@ -4,9 +4,6 @@ library(ggmap)
 library(magrittr)
 library(leaflet)
 
-Sys.setenv(http_proxy = "http://govnext-proxy.finance.wa.gov.au:80")
-Sys.setenv(https_proxy = "http://govnext-proxy.finance.wa.gov.au:80")
-
 url <- 'https://www.wa.gov.au/government/covid-19-coronavirus/covid-19-coronavirus-locations-visited-confirmed-cases'
 
 webpage <- read_html(url)
